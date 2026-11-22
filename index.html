@@ -776,7 +776,7 @@ function buildCheckpoints(r){
  });
 }
 function downloadReport(fromSpecial){
- if(fromSpecial && eventType!=='failure') return; // No report or download for stopped cars.
+ if(fromSpecial && !el('seEventFailure')?.classList.contains('selected')) return; // No report or download for stopped cars.
  const season=readSelectedSeason();
  const mode=fromSpecial&&el('seEventFailure').classList.contains('selected')?'failure':'normal';
  const r=nightSimulation(season,mode);
