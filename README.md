@@ -166,34 +166,6 @@ AKARI/
 
 The project intentionally has **no external package dependencies**. Contributors can work directly in `index.html` and test in a modern browser.
 
-## 🎤 Suggested hackathon demo
 
-1. Open **Road Simulation → Empty Road** to show low-power standby.
-2. Choose **One Car** to demonstrate lighting response to traffic.
-3. Select **Normal Traffic** and change a winter/summer nighttime hour.
-4. Open **Special Events → Vehicle Stops** and show protective 100% lighting (no radar-fault report).
-5. Choose **Radar Failure** and demonstrate fail-safe illumination and a red-highlighted health report.
-6. Return to **Road Simulation**, select a season and download its hourly report.
-7. Open **Analytics Dashboard** to present the installation budget, modeled kWh and DT savings, and optional 50-year outlook.
-
-## 🔬 What needs validation before a real pilot?
-
-- Identify and obtain permission for an **exact** 500 m road segment in Jaâfar–Raoued.
-- Measure nighttime vehicle, motorcycle, pedestrian and side-road movements.
-- Inspect actual lamp quantity, power, wiring, LED drivers and dimming compatibility.
-- Measure radar range, mounting geometry, field of view, missed detections and latency.
-- Establish compliant lighting design and a tested safe fallback under applicable road standards. **20% is not an approved safety level.**
-- Obtain supplier quotations in Tunisia, with electrical protections, installation, connectivity, maintenance and taxation.
-- Connect a real controller and physical sensors, implement heartbeat monitoring, secure telemetry and a backend for alerts/reports if AKARI progresses to field trials.
-
-## 🛠️ Project status and contribution
-
-**Current stage:** interactive hackathon proof of concept.
-
-Future work includes physical validation, measured energy performance, user-safety review, verified costs and real deployment authorization. Contributions can be proposed through GitHub Issues and Pull Requests after the repository is published. Please describe the scenario being changed, the expected effect and how it was tested.
-
-**License:** No open-source license has been assigned. A repository owner should choose and add a `LICENSE` file if public reuse or modification is intended.
-
----
 
 **AKARI** — Adaptive lighting when it is needed; measurable energy savings where it is justified. 💡
